@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+img {
+  width: 60vh;
+  max-height: 70vh;
+  object-fit: scale-down;
+}
+
+body {
+  max-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#display-body-blank {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1 1 auto;
+  width: 100%;
+  height: calc(100vh - 70px);
+  padding-top: 15px;
+}
+
+#display-body-blank>div {
+  min-width: 31vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}

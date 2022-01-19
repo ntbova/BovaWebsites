@@ -1,0 +1,82 @@
+html, body {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: 0;
+  background-color: #e5ccff;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+/*navbar elements*/
+#title {
+  padding-left: 3vw;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  font-size: calc(24px + 2vw);
+}
+
+#nav {
+  z-index: 100 !important;
+}
+
+.navbar {
+  min-height: 70px;
+  max-height: 70px;
+  padding: 0rem 0rem;
+}
+
+.nav-link {
+  font-size: min(calc(8px + 1.5vw), 35px);
+  max-height: 70px;
+  display: block;
+  vertical-align: middle;
+}
+
+#nav-button {
+  margin-top: 18px;
+  margin-right: 3vw;
+  margin-left: 5px;
+  margin-bottom: 18px;
+  padding: 1px 1px;
+}
+
+.nav-item {
+  padding-left: 3vw;
+  background-color: #212529;
+}
+
+/*font elements*/
+.caterina-font {
+  font-family: caterina;
+}
+
+@font-face {
+  font-family: "caterina";
+  src: url("../fonts/caterina-webfont.woff")
+}
+
+/*default background*/
+#display-body {
+  background: url("../images/works/DSC_0457_smaller.jpeg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*inverted coloring on div/div text */
+.invcolor {
+  background-color: #212529;
+  color: white;
+}
